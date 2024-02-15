@@ -1,0 +1,187 @@
+/* Extra small devices (mobile) */
+@media screen and (max-width: 576px) {
+  /* CSS rules */
+}
+
+/* Small devices (mobile/tablets) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* CSS rules */
+}
+
+/* Medium devices (tablets/laptops) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS rules */
+}
+
+/* Large devices (laptops/desktops) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS rules */
+}
+
+/* Extra large devices (large desktops) */
+@media screen and (min-width: 1200px) {
+  /* CSS rules */
+}
+  
+body {
+    font-family: "times new roman",sans-serif;
+    font-size:medium;
+   
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    color:#fff;
+    background-image:url(cont.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size:cover;
+   background-position: center;
+}
+header{
+    
+    color:aliceblue;
+    font-family: 'Times new roman',sans-serif;
+    padding-top: 20px;
+    padding-left: 1em;
+    
+    
+    img{ float: left;width:100px;
+      
+    }
+
+  }
+  h3{
+    text-align: center;
+
+  }
+ 
+   .block{
+    text-align :center;
+    font-size:xx-large;
+    padding:5em;
+    
+  }
+  h2{
+    border-color:rgb(165, 167, 162);
+    padding: 5px;
+    
+    border-bottom-style: solid;
+    border-left-width: 1cm;
+
+  }
+   
+  header, #main-content, #contact {
+    text-align: center;
+    margin: 0px;
+  }
+  
+ 
+.content{
+  margin:3em;
+ 
+  
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ul {
+        list-style-type: none;
+        margin-left:0;
+        padding: 0;
+        overflow: hidden;
+      
+        
+      }
+      
+      li {
+        float: left;
+        padding:2em;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align:"center";
+        padding: 1em;
+        text-decoration: none;
+        font-size: medium;
+        width: 100%;
+            
+      }
+      
+      li a:hover {
+        background-color: #111111;
+      }
+     #demo {
+            text-align: center; /* Center the text within the element */
+            display: block; /* Convert the element to a block element */
+            margin-left: 50%;
+            
+            margin-right: 40%;/* Auto margin to center horizontally */
+            background-color: #111111;
+            width:max;
+            
+            font-size: xx-large;
+            
+            border-radius: 10px;
+        }
+
+      .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr); /* Adjust min and max width as needed */
+      grid-gap: 10px; /* Adjust the gap between photos */
+    }
+    
+    .photo {
+      overflow: hidden; /* Ensure photos don't overflow */
+    }
+    
+    .photo img {
+      width: 100%; /* Ensure images fill their containers */
+      height: auto; /* Maintain aspect ratio */
+    }
+   
+  
+  .section2{
+    padding: 20px;
+
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+    margin: 0;
+  
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align:left;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+.box{
+    
+    padding:0;
+    margin:10%;
+     border-width:25%;
+    border: 2px solid rgb(18, 17, 17);
+    border-radius: 8px;
+    border-width: 20%;
+    text-align: center;
+    background-color:rgba(92, 85, 88, 0.655) ;
+    color:white;
+}
+div{
+    margin: 0%;
+}
+.btn{ background-color: rgb(16, 16, 16);
+ color:aliceblue;
+ border-style: solid;
+ border-radius:2em;
+ padding: 1em;
+}
